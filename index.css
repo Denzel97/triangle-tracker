@@ -1,0 +1,23 @@
+body{
+  background-image: url('images/Bermuda_Triangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-family: 'Unlock';
+  font-size: 350%;
+  text-decoration: underline overline;
+  text-decoration-color: red;
+}
+#button{
+  color: red;
+}
+form{
+  text-align: center;
+  margin-top: 20%;
+}
+#header{
+  display: flex;
+  text-align: center;
+  margin-right: 90px;
+}
