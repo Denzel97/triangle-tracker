@@ -5,18 +5,18 @@ var triangle = function(){
   var response = document.getElementById('response');
 
 
-  if(sideA > (sideB + sideC) || sideB > (sideA + sideC) || sideC > (sideA +sideB)){
 
-  if (sideA === sideB && sideB === sideC) {
+
+   if (sideA === sideB && sideB === sideC) {
     response.textContent = 'Equilateral Triangle'
   }
   else if(sideA === sideB || sideB === sideC || sideA === sideC) {
     response.textContent = 'Isosceles'
   }
-  else{
+  else if((sideA + sideB) > sideC || (sideB + sideC) > sideA || (sideB + sideC) > sideA && sideA !== sideB && sideA !== sideC && sideB !== sideC){
     response.textContent = 'Scalene'
-  }
-}else{
-  response.textContent = 'Not a triangle'
+  }else if ( (sideA => sideB+sideC) || (sideB => sideA+sideC) || (sideC =>sideA+sideB )){
+    response.textContent = 'Not a triangle'
 }
-}
+
+};
