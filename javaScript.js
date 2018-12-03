@@ -1,22 +1,23 @@
-var triangle = function(){
+function triangle(){
   var sideA = document.getElementById('a').value;
   var sideB = document.getElementById('b').value;
   var sideC = document.getElementById('c').value;
-  var response = document.getElementById('response');
-
+  var return = document.getElementById('return')
 
 
 
    if (sideA === sideB && sideB === sideC) {
-    response.textContent = 'Equilateral Triangle'
+    return.innerHTML = 'Equilateral Triangle'
   }
   else if(sideA === sideB || sideB === sideC || sideA === sideC) {
-    response.textContent = 'Isosceles'
+    return.innerHTML = 'Isosceles'
   }
   else if((sideA + sideB) > sideC || (sideB + sideC) > sideA || (sideB + sideC) > sideA && sideA !== sideB && sideA !== sideC && sideB !== sideC){
-    response.textContent = 'Scalene'
+    return.innerHTML = 'Scalene'
   }else if ( (sideA => sideB+sideC) || (sideB => sideA+sideC) || (sideC =>sideA+sideB )){
-    response.textContent = 'Not a triangle'
+    return.innerHTML = 'Not a triangle'
+    // result.innerHTML = "Not a triangle <img src='images/see-no-evil.png'>"
+
 }
 
 };
