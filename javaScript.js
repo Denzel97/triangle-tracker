@@ -5,7 +5,7 @@ var triangle = function(){
   var response = document.getElementById('response');
 
 
-  if(sideA < sideB + sideC || sideB < sideA + sideC || sideC < sideA +sideB){
+  if(sideA > (sideB + sideC) || sideB > (sideA + sideC) || sideC > (sideA +sideB)){
 
   if (sideA === sideB && sideB === sideC) {
     response.textContent = 'Equilateral Triangle'
