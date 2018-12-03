@@ -5,25 +5,18 @@
     <title>Triangle Tracker</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
-    <script type="text/javascript">
-
-
-    </script>
+    <script src='javaScript.js'></script>
   </head>
   <body>
-    <div id="header">
-      <img src="images/bermuda..jpeg" alt="bermuda emoji" height="100px" width="100px">
-      <h1>TRIANGLE TRACKER</h1>
-      <img src="images/bermuda..jpeg" alt="bermuda emoji" height="100px" width="100px">
-    </div>
+    <h1>TRIANGLE TRACKER</h1>
     <form class="" action="index.html" method="post">
-      <h2>Side a:<input type="text" name="" value=""></h2>
+      <h2>Side a:<input id="a" type="text" name="" value=""></h2>
       <br>
-      <h2>Side b:<input type="text" name="" value=""></h2>
+      <h2>Side b:<input id="b" type="text" name="" value=""></h2>
       <br>
-      <h2>Side c:<input type="text" name="" value=""></h2>
-      <br>
-      <h2 id="submit"><input type="submit" name="" value="Submit"></h2>
+      <h2>Side c:<input id="c" type="text" name="" value=""></h2>
+      <input type="button" name="" value="submit" onclick="triangle()">
+      <p id='response'></p>
     </form>
 
   </body>
