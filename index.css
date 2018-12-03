@@ -3,6 +3,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+p{
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Indie Flower';
+}
+h2{
+  font-family: 'indie Flower';
+}
 h1{
   font-family: 'Unlock';
   font-size: 350%;
