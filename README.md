@@ -9,11 +9,16 @@ This is a webpage that allows users to enter three sides of a triangle and check
 * This will clone the repository to your local folder
 
 ## BDD
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| Behaviour     | Input           | Output |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| Nothing typed on the filled      | _,_,_ | not a number |
+| If only one field is filled      | 2,_,_      |   not a number |
+| If two fields are filled | 2,4,_     |    not a number |
+| If all fields are not equal   |  2,3,4  | Scalene triangle  |
+| If two sides are equal  | 5,5,8 | Isosceles triangle  |
+| If three sides are equal  | 3,3,3 | Equilateral triangles |
+| If the sum of two sides is <= third | 4,4,8 | not a triangle  |
+| If one enters a non-numerical value  |  w,3,4 | not a number  |
 
 ## Known Bugs
 * Not aware of any bugs so far, please let me know if you run into any at the provided contacts below
