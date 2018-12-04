@@ -8,6 +8,13 @@ This is a webpage that allows users to enter three sides of a triangle and check
 * Use this command ($ git clone https://denzel97.github.io/triangle-tracker/)
 * This will clone the repository to your local folder
 
+## BDD
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
 ## Known Bugs
 * Not aware of any bugs so far, please let me know if you run into any at the provided contacts below
 ## Technologies Used
