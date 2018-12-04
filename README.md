@@ -1,9 +1,7 @@
 # {Triangle Tracker}
-#### {
-This is a webpage that allows users to enter three sides of a triangle and checks whether the triangle is an equilateral triangle, isosceles triangle, scalene triangle or not a triangle at all. It does not allow users to input non-numerical value.}, {30/11/2018}
-#### By DENZEL OUMA
+#### {By DENZEL OUMA}
 ## Description
-
+This is a webpage that allows users to enter three sides of a triangle and checks whether the triangle is an equilateral triangle, isosceles triangle, scalene triangle or not a triangle at all. It does not allow users to input non-numerical value.}, {30/11/2018}
 ## Setup/Installation Requirements
 * git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
 * Then open another page on terminal
