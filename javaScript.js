@@ -2,7 +2,8 @@ function triangle(){
   var sideA =parseInt(document.getElementById('a').value);
   var sideB =parseInt(document.getElementById('b').value);
   var sideC =parseInt(document.getElementById('c').value);
-  var response = document.getElementById('response')
+  var response = document.getElementById('response');
+  var triangles = ["Equilateral triangl","Isosceles triangle","Scalene triangle"];
 
 
 if(sideA + sideB > sideC && sideB + sideC > sideA && sideA + sideC >sideB){
